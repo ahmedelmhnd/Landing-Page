@@ -1,0 +1,126 @@
+.header1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: Roboto;
+}
+
+.h-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.section-one {
+    display: flex;
+    background-color: #1F2937;
+    padding-left: 250px;
+    padding-right: 250px;
+    flex-basis: 350px;
+    justify-content: center;
+}
+
+.main-one {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    margin-right: 50px;
+    max-width: 800px;
+}
+
+.main-image {
+    display: flex;
+    background-color: #8c929e;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    margin-left: 50px;
+    width: 400px;
+    height: 250px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.main-sec-text {
+    color: #E5E7EB;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0;
+}
+
+button {
+    max-width: 150px;
+    min-height: 50px;
+    border-radius: 10px;
+    background-color: rgb(65, 135, 255);
+    color: white;
+    font-weight: bold;
+    border: 0;
+}
+
+.section-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.images-container {
+    display: flex;
+    gap: 20px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    background-color: #ffffff;
+    border: 2px solid #2a7fff;
+    border-radius: 15px;
+    margin: 5px;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.header2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 20px;
+}
+
+.image-and-text {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 240px;
+    font-size: 18px;
+    color: #606060;
+}
