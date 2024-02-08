@@ -77,13 +77,14 @@ h1 {
 }
 
 button {
-    max-width: 150px;
+    width: 150px;
     min-height: 50px;
     border-radius: 10px;
     background-color: rgb(65, 135, 255);
     color: white;
     font-weight: bold;
-    border: 0;
+    border: 3px solid white;
+    flex-shrink: 0;
 }
 
 .section-two {
@@ -149,4 +150,43 @@ button {
     color: #1F2937;
     align-self: center;
     margin-left: 500px;
+}
+
+.section-four {
+    display: flex;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.msg-container {
+    display: flex;
+    background-color: #2a7fff;
+    height: 150px;
+    width: 1200px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+}
+
+.header-3 {
+    color: #E5E7EB;
+    
+}
+
+footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 100px;
+}
+
+.github-image {
+    width: 40px;
+    height: auto;
 }
